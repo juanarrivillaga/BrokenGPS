@@ -5,11 +5,11 @@ For (i = 0; i <= 60; i=i+5)
    Generate random number 1-4
    If 1
       Add (5,0) to position i.e. go east
-   If 1
+   If 2
       Add (0,5) to position i.e. go north
-   If 1
+   If 3
       Add (-5,0) to position i.e. go west
-   If 1
+   If 4
       Add (0,-5) to position i.e. go south
 
 Distance = Sqrt(pow(p1,2) + pow(p2,2))
